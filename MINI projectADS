@@ -1,0 +1,65 @@
+package myproject;
+import java.util.Scanner;
+import java.text.*;
+import java.util.Date;
+class Hrs2{
+public static void main(String args[]){
+    int count=0;
+    Scanner sc= new Scanner(System.in);
+     System.out.println("enter the city:");
+    String textInput=sc.next();
+    System.out.println("enter locality/area:");
+    String textInput1=sc.next();
+    System.out.println("enter type of property(1rk,1bhk,2bhk,bunglow):");
+    String textInput2=sc.next();
+   
+boolean flag = false;
+
+int index = 0;
+String[] yourArray = {"mumbai    dadar     om chs     1bhk      rent:rs25000",
+"mumbai     virar     girija tower     1rk     rent:rs7500",
+"pune     katraj     ashok residency     2bhk     rent:rs12500",
+"mumbai     dadar      virat society     1bhk      rent:rs 40000",
+"mumbai     dadar      aakash society     1bhk      rent:rs 40000",
+"mumbai     dadar      kohinoor society     1bhk      rent:rs 50000",
+"mumbai     dadar      vj society     2bhk      rent:rs40000",
+"pune     kothrud     Birla towers     1bhk     rent:rs13000",
+"pune     shivajinagar     Trident society     1bhk     rent:rs23500",
+"pune     narhe     Pandey Wings     3bhk     rent:rs18000"
+};
+for (int i = 0; i <= yourArray.length - 1; i++) {
+
+    if (yourArray[i].contains(textInput)&& yourArray[i].contains(textInput1) && yourArray[i].contains(textInput2)){
+        flag = true;
+        index = i;
+        ++count;
+System.out.println( yourArray[index]);
+    }
+}
+System.out.println();
+if (flag) 
+   System.out.println( "showing " +count+ " result based on your requirements.");
+else 
+   System.out.println("not found ");
+
+System.out.println();
+
+System.out.println("enter the property you want to visit from above list:");
+String ob;
+    ob = sc.next();
+
+  SimpleDateFormat sdf = new SimpleDateFormat("MM-dd-yyyy");
+   Scanner c = new Scanner(System.in);
+   System.out.println("Example: 12-25-2103");
+      System.out.print("Enter the  date of your visit: ");
+      String st = c.nextLine();
+ 
+      try {
+         Date date = sdf.parse(st); 
+ 
+         sdf = new SimpleDateFormat("EEE, d MMM yyyy");
+         System.out.println("you can visit the property in "+ob+ " on " + sdf.format(date));
+      } catch (ParseException e) { 
+         System.out.println("Parse Exception");
+      }
+}}
