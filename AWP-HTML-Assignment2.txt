@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Journey</title>
+<style type="text/css">
+p{
+  font-size:20px
+}
+</style>
+</head>
+<body>
+
+    <h1 style ="color : red;"><b>Life journey of our dearest late Mr Rishi Kapoor or Mr Irrfan Khan.</b></h1>
+
+    <div style= "position:fixed;left: 70px;">
+    <img  src="rishi-kapoor.jpg" alt="RishiKapoor"target_ width="300" height="300">
+    </div>
+    <div style="text-align:justify;position:absolute;top:60px;left:525px; right:10;"><p>
+        Within a matter of two days, India lost two of its most distinguished and charismatic stars, Irrfan Khan and Rishi Kapoor.
+        The sudden news of their passing away left everyone in a state of shock.
+        With widespread outpour of grief across social media, we also saw various theories that tried to link the two stars, 
+        trying to make sense of their demise so close to each other.“Many people would have wanted to say goodbye, 
+        but this is how Irrfan would have wanted it," said Vishal Bhardwaj, a director who attended the funeral, 
+        which was held on Wednesday. “He never made a show about anything. Success never changed him.’’ The two stars were so different.
+        Mr. Khan, who was featured as a police inspector in the hit “Slumdog Millionaire,” was an actor’s actor. Known for his intensity,
+        studiousness and approachability, he came from humble roots. His father sold tires. 
+        He was not considered as classically handsome as a typical movie star, and many Indians felt an affinity with him 
+        — a fine actor (he has been described as India’s Philip Seymour Hoffman) who was also a regular guy. 
+        Film directors said Mr. Khan reliably undersold himself, asking for less money for parts than he could have commanded.
+        And to help out his film making friends, he sometimes took on roles that other actors avoided.</p></div>
+        
+        
+        <br>
+        
+        <div style= "position:fixed;bottom: 60px;">
+        <img src="irfan khan.jpg" alt="IrfanKhan"target_ width="300" height="300">
+        </div>
+        <div style="text-align:justify;position:absolute;bottom:60px;left:525px; right:10;"><p>
+            He gravitated toward Shakespeare, starring in “Maqbool,” a retelling of “Macbeth," and playing a ghostlike figure, 
+            a prisoner who had survived a notorious torture chamber, in “Haider,” a film inspired by “Hamlet” but set in Kashmir.
+            Many of his friends, and his fans, feel that destiny cheated him, plucking away his life at a relatively young age 
+            as he was reaching the peak of his career after decades of working his way up. “He was perhaps one of the best actors we had,” 
+            said Shivendra Singh Dungarpur, a filmmaker who runs a film preservation foundation. “But beyond that, he was a lovely person.” 
+            “Just look at the posts on social media,” Mr. Dungarpur said. “These are not fan photographs. 
+            They are people who had worked with Irrfan, who had done something with Irrfan,
+            who connected with Irrfan in a very different way than that of most superstars.”
+            Mr.Khan grew up in a Muslim family and was laid to rest in a Muslim graveyard. 
+            In recent years, the divide between India’s Muslim minority and its Hindu majority has widened and grown more treacherous.</p></div>
+            
+            
+
+</body>
+</html>  

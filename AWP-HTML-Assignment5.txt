@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Table</title>
+<style>
+   table, th, td { 
+            border: 1px solid black; 
+        } 
+</style>
+</head>
+<body>
+    <h1 style ="color :blue;"><b>Table Example:Spanning Rows and Columns</b></h1>
+       <div>
+        <table style="width:100%"> 
+           <center>
+           <caption>
+           A more complex sample table
+           </caption>
+           </center>
+            <tr> 
+                <th rowspan = "2"><img src="camel.jpg" alt=" image of camel"></img></th> 
+                <th colspan=4>Camelid comparision<br>
+                 Approximate as of 6/2011</th> 
+                 <tr >
+                   <th># of humps</th>
+                   <th>Indigenous region</th>
+                   <th>Splits?</th>
+                   <th>Produces wool?</th>
+                 </tr>
+                <tr >
+                   <th>Camels(bacterian)</th>
+                   <td>2</td>
+                   <td>Africa/Asia</td>
+                   <td>Yes</td>
+                   <td>Yes</td>
+                 </tr>
+                <tr >
+                   <th>Llamas</th>
+                   <td>1</td>
+                   <td>Andes Mountains</td>
+                   <td>Yes</td>
+                   <td>Yes</td>
+                 </tr>
+            </tr> 
+        </table>
+        </div> 
+   
+</body>
+</html>  

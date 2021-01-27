@@ -1,0 +1,99 @@
+<html>
+<head>
+    <title>
+        Shubham Bio-data
+    </title>
+    <style>
+        table, td, th {  
+          border: 1px solid #ddd;
+          text-align: left;
+        }
+        
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        th, td {
+          padding: 15px;
+        }
+        tr:hover {background-color:#bd1616;}
+        </style>
+</head>
+<body background="jason.jpg.jpg">
+
+   <h1 style="color:red;" text-align: center;><center><caption>Shubham Badhe</caption></center></h1>
+   <img src="shubh.jpg.jpeg" alt="ShubhamBadhe"target_ width="200" height="200">
+   <!----img align="right" src="shubh.jpg.jpeg" width="100" height="100"--->
+
+    <h2 style="color:">Personal Details</h2>
+    <p> 
+        <b>Name:-</b> Shubham Sunil Badhe <br>
+        <b>Age:-</b> 22 yr.<br>
+        <b>Email Id:-</b> shubhambadhe1998@gmail.com<br>
+        <b>Mobile No. :-</b> 9730623398<br>
+        <b>Linkedin id :-</b> <a href="https://www.linkedin.com/in/shubham-badhe-7b9b5716b"target="_blank">Go to Linkedin</a>
+    </p>
+    <hr>
+    <h2 style="color:red;">Family Details</h2>
+    <p>
+        <b>Mother's Name:-</b> Bharati Badhe<br>
+        <b>Father's Name:-</b> Sunil Badhe<br>
+        </p>    
+    <hr>
+
+    <h2 style="color:darkviolet;">Career Objective</h2>
+    <p>
+        To work in a firm with a profrssional work driven enviroment where I can utilize and apply my knowledge,skill which would enable me as a fresh graduate to grow while fulfilling goals.
+ 
+    </p>
+    <hr>
+    <h2 style="color:darkred;">Educational Qualifications</h2>
+    <table>
+        <tr>
+          <th>Degree</th>
+          <th>Name of School Collge/University</th>
+          <th>Percentage/CGPA</th>
+        </tr>
+        <tr>
+          <td>BE Mechanical</td>
+          <td>J T Mahajan COE Faizpur, KBC NMU</td>
+          <td>6.98</td>
+        </tr>
+        <tr>
+          <td>Higher Secondary Education</td>
+          <td>LV H Panchavati Nashik, Nashik Board</td>
+          <td>60.15</td>
+        </tr>
+        <tr>
+          <td>Secondary Education</td>
+          <td>K N V Bhusawal, Nashik Board</td>
+          <td>74.80</td>
+        </tr>
+    </table>
+    
+    <hr>
+    <h2 style="color:olive;">EXPERENTIAL LEARNING (SUMMER INTERNSHIP) </h2>
+    <p>
+        <ul type="circle">
+            <li>Loco Shed : Electrical Loco Shed, Bhusawal. (MOH)
+                Duration : 15 Days ( 1 June 2017 to 15 June 2017)</li>
+            <li>“Advance Mechatronic Which covers Hydraulic
+                Pneumatics Systems, PLC, SCADA</li>
+        </ul>
+    </p>
+    <hr>
+    <h2 style="color:brown;">Strength</h2>
+    <p>
+               <ol type="I">
+            <li>Hardworking</li>
+            <li>Sincere</li>
+            </ol>
+        </p>
+        <hr>
+        <h2 style="color:darkviolet;">Declaration</h2>    
+    <p>
+        I do hereby declare that the above information is true to the best of knowledge.
+    </p>    
+</body>
+</html>
